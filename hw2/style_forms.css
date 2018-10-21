@@ -1,0 +1,99 @@
+#container {
+	margin-left: 50px;
+	font-size: 12px;
+	width: 400px;
+	font-family: "Comic Sans MS";
+	font-weight: normal;
+	font-size: 10px;
+	
+}
+h1 {
+	text-align: center;
+}
+.block {
+	width: 400px;
+	border: 2px solid black;
+	margin-top: 30px;
+	padding-left: 15px;
+	padding-bottom: 20px;
+}
+input, textarea {
+	border: 2px solid black;
+	padding-left: 5px;
+	margin-left: 10px;
+	font-family: "Comic Sans MS";
+	margin-right: 15px;
+}	
+input {
+	height: 15px;
+}
+#id {
+	background-color: #CCCCCC;
+}
+.placeholder {
+	font-style: italic;
+}
+.about-me, .skills {
+	vertical-align: top;
+}
+p {
+	padding-left: 40px;
+}
+.photo {
+	border: none;
+	padding-left: 0;
+}
+#btn {
+	padding-left: 10px;
+	margin-left: 10px;
+    border: 2px solid black;
+    width: 90px;
+    height: 13px;
+	margin-top: 10px;
+	padding-top: 5px;
+	box-shadow: 2px 2px 0px black;
+}
+.calendar {
+	width: 25px;
+	height: 20px;
+	vertical-align: middle;
+}    
+#calendar {
+	width: 245px;
+}
+#range {
+	width: 280px;
+	scrollbar-face-color: black;
+	scrollbar-track-color: black;
+}
+.title1 {
+	width: 90px;
+}
+.title2 {
+	width: 140px;
+}
+.radio {
+	display: block;
+}
+li {
+    list-style-type: none;
+    vertical-align: middle;
+}
+ul {
+	margin-left: -40px;
+}
+legend {
+	margin-top: -10px;
+	background-color: white;
+	font-size: 14px;
+	font-weight: bold;
+}
+button {
+	float: right;
+	margin-top: 10px;
+	margin-left: 10px;
+}
+.years {
+	margin-top: -5px;
+}
+

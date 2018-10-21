@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+	<title>Форма</title>
+	<link rel="stylesheet" href="normalize.css" type="text/css">
+	<link rel="stylesheet" href="style_forms.css" type="text/css">
+</head>
+  
+<body>
+    <div id="container">
+	<form method="get" action="">
+    <h1>Profile edit page</h1>
+	<fieldset class="block">
+	    <legend class="title1">&ensp; Basic info</legend>
+		<table>
+		    <tr>
+			    <td>ID</td>
+				<td><input id="id" type="text" name="page" value="725" size="47" readonly /></td>
+			</tr>
+			<tr>
+			    <td>First Name</td>
+				<td><input type="text" name="form_name" value="" size="47"  /></td>
+			</tr>
+			<tr>
+			    <td>Last Mame</td>
+				<td><input type="text" name="form_sername" value="" size="47" /></td>
+			</tr>
+			<tr>
+			    <td>Password</td>
+				<td><input type="password" maxlength="25" size="47" name="password"></td>
+			</tr>
+			<tr>
+			    <td>Phone</td>
+				<td><input class="placeholder" "type="tel" name="form_phone" value="" placeholder="380" size="46"  /></td>
+			</tr>
+			<tr>
+			    <td>Email</td>
+				<td><input class="placeholder" type="email" name="your-email" value="" placeholder="myemail@placeholder.com" size="46"></td>
+			</tr>
+			<tr>
+			    <td></td>
+				<td>
+				    <input type="checkbox" name="keep_email" value="1" id="keep-email"/>
+				    <label for="keep-email">Keep my email address private
+					<p>We'll remove your public profile email and use<br>
+					1978331+username@users.noreply.localhost</p></label>
+					
+				</td>
+			</tr>
+			<tr>
+			    <td>DOB</td>
+				<td>
+                 <input id="calendar" name="calendar" type="date">
+				 <label for="calendar"><img class="calendar" src="calendar.png" alt=""></label></td>
+			</tr>
+			<tr>
+			    <td>Blog url</td>
+				<td><input class="placeholder" name="blog-url" type="url" value="" size="46" placeholder="http://"></td>
+			</tr>
+			<tr>
+			    <td class="about-me">About&nbsp;me</td>
+				<td><textarea name="about-me" rows="10" cols="45"></textarea></td>
+			</tr>
+			<tr>
+			    <td>Profile&nbsp;picture</td>
+				<td><div id="btn"><label for="files">Choose the file</label></div>
+                 <input id="files" style="visibility:hidden;" name="userfile" accept="image/*" type="file"></td>
+			</tr>
+		</table>
+	</fieldset> 
+	  	     
+	<fieldset class="block">
+	    <legend class="title2">&ensp; Professional info</legend>
+		<table>
+			<tr>
+				<td>Desire&nbsp;to&nbsp;study</td>
+				<td><input type="range" min="0" max="100" step="1" value="75" id="range"></td>
+			</tr>
+			<tr>
+				<td>Experience</td>
+				<td>
+				    <select name="form_select" size="2" id="select">
+			            <option value="1">1</option>
+				        <option value="2">2</option>
+				        <option value="3" selected>3</option>
+						<option value="4">4</option>
+				        <option value="5">5</option>
+						<option value="6">6</option>
+				        <option value="7">7</option>
+						<option value="8">8</option>
+				        <option value="9">9</option>
+						<option value="10">10</option>
+				        <option value="11">11</option>
+						<option value="12">12</option>
+				        <option value="13">13</option>
+						<option value="14">14</option>
+				        <option value="15">15</option>
+			        </select>
+					<label for="select">years</label>
+				</td>
+			</tr>
+		    <tr>
+				<td colspan="2">Development&nbsp;Experience</td>
+			</tr>
+			<tr>
+				<td></td>
+				<td>
+					<ul>
+					    <li><input type="radio" name="radio1" id="learning"><label for="LtP">Learning to Program</label></li>
+                        <li><input type="radio" name="radio2" id="junior" checked><label for="junior">Junior Developer</label></li>
+                        <li><input type="radio" name="radio3" id="middle"><label for="middle">Mid-Level Developer </label></li>
+                        <li><input type="radio" name="radio4" id="senior"><label for="senior">Senior Developer</label></li>
+					</ul>
+				</td>
+			</tr>
+			<tr>
+				<td>Country</td>
+				<td>
+					<select name="country" id="country">
+                        <option>- Choose your country -</option>
+                        <option value="Ukraine">Ukraine</option>
+                        <option value="USA">USA</option>
+                        <option value="Thailand">Thailand</option>
+                        <option value="Spain">Spain</option>
+                    </select>
+				</td>
+			</tr>
+			<tr>
+				<td class="skills">Skills</td>
+			    <td>
+					<ul>
+					    <li><input type="checkbox" id="html"    name="checkbox1" value="html" checked><label for="html">HTML</label></li>
+                        <li><input type="checkbox" id="css"     name="checkbox2" value="css"><label for="css">CSS</label></li>
+                        <li><input type="checkbox" id="js"      name="checkbox3" value="js"><label for="js">JavaScript</label></li>
+                        <li><input type="checkbox" id="ruby"    name="checkbox4" value="r"><label for="r">R</label></li>
+                        <li><input type="checkbox" id="scala"   name="checkbox5" value="scala"><label for="scala">Scala</label></li>
+                        <li><input type="checkbox" id="haskell" name="checkbox6" value="haskell"><label for="haskell">Haskell</label></li>
+					</ul>
+				</td>
+			</tr>
+	    </table>
+	</fieldset> 
+	  
+	    <button type="reset">Submit</button>
+        <button type="submit">Cancel</button>
+        <input type="hidden" name="your-name" value="Inessa">
+	
+	</form>
+	</div>
+</body>
+</html>
