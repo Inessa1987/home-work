@@ -29,7 +29,7 @@ th {
 .lesson-number {
 	font-size: 35px;
 }
-.last-row td{
+tfoot td{
 	height: 20px;
 	font-size: 18px;
 	font-weight: normal;
