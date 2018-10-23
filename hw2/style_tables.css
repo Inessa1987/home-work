@@ -15,7 +15,6 @@ td {
 	font-weight: bold;
 	font-size: 16px;
 	font-family: Arial;
-	
 }
 th {
 	height: 50px;
@@ -24,7 +23,6 @@ th {
 .second-row td{
 	height: 20px;
 	text-align: center;
-	
 }
 .lesson-number {
 	font-size: 35px;
