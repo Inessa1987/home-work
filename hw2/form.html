@@ -9,7 +9,7 @@
 	<form action="https://postman-echo.com/post" method="post">
 		<h1>Profile edit page</h1>
 		<fieldset>
-			<legend><h2>Basic info</h2></legend>
+			<legend>Basic info</legend>
 			<ul>
 				<li>
 					<label for="id">ID</label>
@@ -49,20 +49,20 @@
 					<input id="url" name="blog_url" type="url" value="" size="46" placeholder="http://">
 				</li>
 				<li>
-					<label for="about">About&nbsp;me</label>
+					<label for="about">About me</label>
 					<textarea id="about" name="about_me" rows="10" cols="47"></textarea>
 				</li>
 				<li>
-					<label for="photo">Profile&nbsp;picture</label>
+					<label for="photo">Profile picture</label>
 					<input id="photo" name="photo" accept="image/*" type="file">
 				</li>
 			</ul>
 		</fieldset>
 		<fieldset>
-			<legend><h2>Professional info</h2></legend>
+			<legend>Professional info</legend>
 			<ul>
 				<li>
-					<label for="desire">Desire&nbsp;to&nbsp;study</label>
+					<label for="desire">Desire to study</label>
 					<input id="desire" type="range" name="desire_to_study" min="0" max="100" step="1" value="75">
 				</li>
 				<li>
@@ -70,9 +70,7 @@
 					<input id="exp" type="number" value="3">&nbsp;years
 				</li>
 				<li>
-					Development&nbsp;Experience
-				</li>
-				<li>
+					<label>Development Experience</label>
 					<ul>
 						<li><input type="radio" name="development_experience" id="learning" value="learning">
 							<label for="learning">Learning to Program</label>
@@ -95,7 +93,8 @@
 						<option value="Spain">Spain</option>
 					</select>
 				</li>
-				<li>Skills
+				<li>
+					<label>Skills</label>
 					<ul>
 						<li><input type="checkbox" id="html" name="skills[]" value="html" checked>
 							<label for="html">HTML</label></li>
