@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Форма</title>
+	<link rel="stylesheet" href="style_forms.css" type="text/css">
+</head>
+<body>
+	<form action="https://postman-echo.com/post" method="post">
+		<h1>Profile edit page</h1>
+		<fieldset>
+			<legend>Basic info</legend>
+			<ul>
+				<li>
+					<label for="id">ID</label>
+					<input id="id" type="text" name="ID" value="725" size="47" readonly>
+				</li>
+				<li>
+					<label for="name">First Name</label>
+					<input id="name" type="text" name="name" value="" size="47">
+				</li>
+				<li>
+					<label for="sername">Last Name</label>
+					<input id="sername" type="text" name="sername" value="" size="47">
+				</li>
+				<li>
+					<label for="password">Password</label>
+					<input id="password" type="password" maxlength="25" size="47" name="password">
+				</li>
+				<li>
+					<label for="tel">Phone</label>
+					<input class="placeholder" id="tel" type="tel" name="phone" value="" placeholder="380" size="47">
+				</li>
+				<li>
+					<label for="email">Email</label>
+					<input id="email" type="email" name="email" value="" placeholder="myemail@placeholder.com" size="47">
+				</li>
+				<li>
+					<input type="checkbox" name="keep_email" value="1" id="keep-email">
+						<label for="keep-email">Keep my email address private</label>
+						<p>We'll remove your public profile email and use<br>1978331+username@users.noreply.localhost</p>
+				</li>
+				<li>
+					<label for="calendar">DOB</label>
+					<input id="calendar" name="birthday" type="date">
+				</li>
+				<li>
+					<label for="url">Blog url</label>
+					<input id="url" name="blog_url" type="url" value="" size="46" placeholder="http://">
+				</li>
+				<li>
+					<label for="about">About me</label>
+					<textarea id="about" name="about_me" rows="10" cols="47"></textarea>
+				</li>
+				<li>
+					<label for="photo">Profile picture</label>
+					<input id="photo" name="photo" accept="image/*" type="file">
+				</li>
+			</ul>
+		</fieldset>
+		<fieldset>
+			<legend>Professional info</legend>
+			<ul>
+				<li>
+					<label for="desire">Desire to study</label>
+					<input id="desire" type="range" name="desire_to_study" min="0" max="100" step="1" value="75">
+				</li>
+				<li>
+					<label for="exp">Experience</label>
+					<input id="exp" type="number" value="3">&nbsp;years
+				</li>
+				<li>
+					<label>Development Experience</label>
+					<ul>
+						<li><input type="radio" name="development_experience" id="learning" value="learning">
+							<label for="learning">Learning to Program</label>
+						<li><input type="radio" name="development_experience" id="junior" value="junior" checked>
+							<label for="junior">Junior Developer</label></li>
+						<li><input type="radio" name="development_experience" id="middle" value="middle">
+							<label for="middle">Mid-Level Developer </label></li>
+						<li><input type="radio" name="development_experience" id="senior" value="senior">
+							<label for="senior">Senior Developer</label></li>
+					</ul>
+				</li>
+				<li>
+					<label for="country">Country</label>
+					<select name="country" id="country">
+						<option disabled selected>- Choose your country -</option>
+						<option value="Ukraine">Ukraine</option>
+						<option disabled>--------------------------------</option>
+						<option value="USA">USA</option>
+						<option value="Thailand">Thailand</option>
+						<option value="Spain">Spain</option>
+					</select>
+				</li>
+				<li>
+					<label>Skills</label>
+					<ul>
+						<li><input type="checkbox" id="html" name="skills[]" value="html" checked>
+							<label for="html">HTML</label></li>
+						<li><input type="checkbox" id="css" name="skills[]" value="css">
+							<label for="css">CSS</label></li>
+						<li><input type="checkbox" id="js" name="skills[]" value="js">
+							<label for="js">JavaScript</label></li>
+						<li><input type="checkbox" id="r" name="skills[]" value="r">
+							<label for="r">R</label></li>
+						<li><input type="checkbox" id="scala" name="skills[]" value="scala">
+							<label for="scala">Scala</label></li>
+						<li><input type="checkbox" id="haskell" name="skills[]">
+							<label for="haskell">Haskell</label></li>
+					</ul>
+				</li>
+			</ul>
+		</fieldset>
+		<button type="reset">Cancel</button>
+		<button type="submit">Submit</button>
+		<input type="hidden" name="your_hobby" value="fishing">
+	</form>
+</body>
+</html>

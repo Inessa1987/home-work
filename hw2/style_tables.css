@@ -1,0 +1,46 @@
+table {
+     margin: 30px;
+	 border: 1px solid black;
+	 width: 1600px;
+	 height: 690px;
+	 border-collapse: collapse;
+}
+th, td {
+	border: 1px solid black;
+	width: 100px;
+}
+td {
+	height: 150px;
+	text-align: center;
+	font-weight: bold;
+	font-size: 16px;
+	font-family: Arial;
+}
+th {
+	height: 50px;
+	font-size: 25px;
+}
+.second-row td{
+	height: 20px;
+	text-align: center;
+}
+.lesson-number {
+	font-size: 35px;
+}
+tfoot td{
+	height: 20px;
+	font-size: 18px;
+	font-weight: normal;
+	text-align: left;
+	font-family: "Times New Roman";
+}
+.last-lesson td{
+	height: 60px;
+}
+	
+	
+
+
+	
+
+	
