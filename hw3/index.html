@@ -6,7 +6,7 @@
     <title>Театр імені Т.Г.Шевченка</title>
     <link rel="stylesheet" href="reset.css" type="text/css">
     <link rel="stylesheet" href="styles.css" type="text/css">
-    <link href="https://fonts.googleapis.com/css?family=Roboto:100,300" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400" rel="stylesheet">
 </head>
 
 <body>
@@ -39,8 +39,50 @@
     <section>
         <img class="afisha" src="images/afisha.png" alt="Сьогодні відбудеться вистава">
 
-        <!--Слайдер (или как он там называется) ещё доделываю! -->
-
+        <ul class="slider">
+            <li class="rewind to-the-left">
+                <a href="#left"></a>
+            </li>
+            <li class="item">
+                <span class="day">Нд</span>
+                <span class="date">21</span>
+                <span class="month">лютого</span>
+            </li>
+            <li class="item">
+                <span class="day">Пн</span>
+                <span class="date">22</span>
+                <span class="month">лютого</span>
+            </li>
+            <li class="item active-item">
+                <span class="day">Пн</span>
+                <span class="date">22</span>
+                <span class="month">лютого</span>
+            </li>
+            <li class="info-item">
+                <div class="info">
+                    <span class="perfomance">Сад гетсиманський</span>
+                    <p class="about">
+                        Народна трагедія на 2 дії <br>
+                        Тривалість вистави 2 год 20 хв.
+                    </p>
+                </div>
+                <a href="#tickets" class="tickets">Купити квиток</a>
+                <img class="barcode" src="images/barcode.png" alt="barcode">
+            </li>
+            <li class="item">
+                <span class="day">Чт</span>
+                <span class="date">25</span>
+                <span class="month">лютого</span>
+            </li>
+            <li class="item">
+                <span class="day">Пт</span>
+                <span class="date">26</span>
+                <span class="month">лютого</span>
+            </li>
+            <li  class="rewind to-the-right">
+                <a href="#right"></a>
+            </li>
+        </ul>
     </section>
 
     <div class="content">

@@ -3,11 +3,12 @@
     font-family: 'Roboto', sans-serif;
 }
 header {
-    height: 76px;
+    height: 130px;
     background-image: linear-gradient(to left, #bf1e2e, #f1592a);
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-top: -30px;
 }
 .logo {
     margin-top: 3px;
@@ -24,7 +25,7 @@ header {
     font-weight: 300;
 }
 .top-nav li {
-    padding: 30px 5px;
+    padding: 27px 5px;
 }
 .top-nav a, select {
     color: #ffffff;
@@ -34,7 +35,7 @@ header {
 }
 .top-nav li:hover {
     border-top: 2px solid #ffffff;
-    padding-top: 28px;
+    padding-top: 25px;
 }
 .top-nav li:active {
     background-color: #ffffff;
@@ -180,5 +181,110 @@ footer {
 }
 .top-align {
     margin-top: -2px;
+}
+section {
+    margin-top: -30px;
+    position: relative;
+    text-align: center;
+}
+.slider {
+    bottom: 0;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+}
+.item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: url("images/item.png");
+    height: 92px;
+    width: 92px;
+}
+.day, .date, .month, .about, .perfomance, .tickets, .active-item .day, .active-item .month {
+    color: #ffffff;
+    padding: 0;
+    font-weight: 300;
+}
+.active-item .month {
+    border-top: 1px solid #ffffff;
+    padding-top: 4px;
+}
+.day {
+    color: rgba(255, 255, 255, 0.4);
+    font-size: 16px;
+}
+.date {
+    font-size: 44px;
+}
+.month {
+    border-top: 1px solid #7d7c7c;
+    padding-top: 4px;
+    color: #7d7c7c;
+    font-size: 11px;
+    text-transform: uppercase;
+}
+.active-item {
+    background: url("images/active.png") no-repeat;
+}
+.info-item {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 92px;
+    width: 423px;
+    padding: 10px 20px;
+    background: url("images/perfomance.png") no-repeat;
+}
+.info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.perfomance {
+    font-size: 27.5px;
+    font-weight: 100;
+    margin-top: -25px;
+}
+.about {
+    font-size: 13px;
+    font-weight: 100;
+    margin-top: -25px;
+}
+.tickets {
+    height: 13px;
+    padding: 5px 10px;
+    background: #484c4d;
+    font-size: 11px;
+    font-weight: 100;
+    text-transform: uppercase;
+    margin-top: 47px;
+}
+.barcode {
+    height: 70px;
+}
+.rewind {
+    align-self: center;
+    height: 36px;
+    width: 36px;
+    border: 1px solid #4c4c4c;
+    border-radius: 5px;
+}
+.to-the-left {
+    margin-right: 2px;
+    background: url("images/to-the-left.png") 50% 50% no-repeat #4c4c4c;
+}
+.to-the-right {
+    margin-left: 2px;
+    background: url("images/to-the-right.png") 50% 50% no-repeat #4c4c4c;
+}
+.to-the-left:hover {
+    background: url("images/to-the-left.png") 50% 50% no-repeat, #dd492a;
+    border: 1px solid #dd492a;
+}
+.to-the-right:hover {
+    background: url("images/to-the-right.png") 50% 50% no-repeat, #dd492a;
+    border: 1px solid #dd492a;
 }
 
