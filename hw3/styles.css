@@ -2,7 +2,7 @@
     width: 1929px;
     font-family: 'Roboto', sans-serif;
 }
-header {
+.page-header {
     height: 130px;
     background-image: linear-gradient(to left, #bf1e2e, #f1592a);
     display: flex;
@@ -43,7 +43,7 @@ header {
 .top-nav a:active {
     color: #272b2c;
 }
-select {
+.select-language {
     background: none;
     outline: none;
     margin-left: 50px;
@@ -74,29 +74,29 @@ select {
     justify-content: center;
     margin-top: 30px;
 }
-main {
+.main-content {
     width: 484px;
 }
-article {
+.main-articles {
     margin-top: 30px;
     border: 1px solid #878c8d;
     border-radius: 5px;
 }
-article img {
+.main-articles img {
     margin-left: -1px;
 }
-h2 {
+.block-title{
     color: #df4a2b;
     font-size: 30px;
     font-weight: 100;
     padding: 10px;
 }
-h3 {
+.title-news {
     font-size: 18px;
     padding: 10px;
     color: #484c4d;
 }
-p, span {
+.main-text {
     color: #878c8d;
     font-size: 14px;
     padding: 10px;
@@ -106,7 +106,7 @@ p, span {
     display: flex;
     justify-content: space-between;
 }
-aside {
+.side-bar {
     width: 235px;
     margin-left: 50px;
 }
@@ -133,7 +133,7 @@ aside {
 .bottom-nav a:hover, .side-nav a:hover {
     color:#cd2e2d;
 }
-footer {
+.page-footer {
     height: 150px;
     border-top: 3px solid #cd2e2d;
     margin-top: 30px;
@@ -182,7 +182,7 @@ footer {
 .top-align {
     margin-top: -2px;
 }
-section {
+.welcome-section {
     margin-top: -30px;
     position: relative;
     text-align: center;
@@ -270,6 +270,7 @@ section {
     width: 36px;
     border: 1px solid #4c4c4c;
     border-radius: 5px;
+    cursor: pointer;
 }
 .to-the-left {
     margin-right: 2px;
