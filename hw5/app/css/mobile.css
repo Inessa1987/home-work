@@ -1,0 +1,256 @@
+@media (max-width: 576px) {
+  .container, .page-header, .page-footer, .welcome-section, .messaging-section, .contacts-section, .people-section,
+  .video-section-content, .appastore-section, .video-section-container, .email-section, .background, .page-footer {
+    width: 100%;
+    margin: 0 auto; }
+  .page-header {
+    height: 90px; }
+  .welcome-section {
+    height: 310px;
+    padding: 0; }
+  .background {
+    height: 400px;
+    clip-path: polygon(0 0, 100% 0, 100% 70vh, 0 100%); }
+  .phone-comments {
+    width: 180px;
+    bottom: 250px;
+    left: 130px; }
+  .welcome-title {
+    margin-top: 60px;
+    margin-left: 30px;
+    width: 100px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 900;
+    font-size: 20px;
+    color: #fff; }
+  .welcome-text {
+    width: 100px;
+    margin-top: -50px;
+    margin-left: 30px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    color: #fff; }
+  .download-div {
+    align-self: flex-start; }
+  .download {
+    width: 85px;
+    height: 20px;
+    margin-top: 40px;
+    margin-left: 30px;
+    border-radius: 15px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    color: #eb402c;
+    text-shadow: 0 5px 10px rgba(223, 27, 61, 0.3); }
+  .messaging-section {
+    margin-top: -250px;
+    padding: 0; }
+  .messaging-article {
+    width: 150px;
+    margin-left: -300px; }
+  .messages-image, .groups-image {
+    position: absolute;
+    width: 130px; }
+  .front-messages-image {
+    position: relative;
+    width: 140px;
+    top: 40px;
+    left: 40px; }
+  .section-title {
+    font-family: 'Lato', sans-serif;
+    font-weight: 900;
+    font-size: 20px;
+    color: #363636;
+    padding-left: 0; }
+  .contacts-article .section-title {
+    padding-left: 10px; }
+  .section-text {
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    color: #808080;
+    width: 120px;
+    margin-top: 19px;
+    padding-left: 10px;
+    text-align: center; }
+  .red-point {
+    font-family: 'Lato', sans-serif;
+    font-weight: 900;
+    font-size: 20px;
+    color: #eb402c; }
+  .contacts-section {
+    padding: 0; }
+  .contacts-image {
+    width: 130px;
+    position: relative;
+    top: 60px;
+    right: 50px; }
+  .people-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    border-top: 1px solid #e0e0e0;
+    margin-top: 0;
+    padding-top: 150px; }
+  .people-section-title {
+    align-self: center; }
+  .reviews {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    margin-top: 30px; }
+  .blockquote {
+    width: 280px;
+    height: 130px; }
+    .blockquote::before {
+      left: 19px;
+      top: 130px; }
+    .blockquote::after {
+      left: 20px;
+      top: 129px; }
+  .blockquote-text {
+    width: 240px;
+    height: 70px;
+    margin: 15px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #808080;
+    text-align: center; }
+  .review {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 50px; }
+  .reviews-title {
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    color: #808080;
+    margin-left: 15px; }
+  .review-author {
+    margin-top: 15px; }
+  .ceo-icon {
+    margin: 15px 19px 0 0; }
+  .review-center {
+    margin-top: -30px;
+    margin-bottom: 20px; }
+  .blockquote-center {
+    box-shadow: 0 10px 20px 0 rgba(54, 54, 54, 0.25); }
+  .video-section-container {
+    width: 100%;
+    height: 500px; }
+  .video-section-content {
+    width: 100%;
+    height: 500px;
+    padding-top: 20px;
+    padding-left: 20px;
+    margin-top: 150px; }
+    .video-section-content li {
+      width: 130px; }
+  .video-section-title {
+    font-family: 'Lato', sans-serif;
+    font-weight: 900;
+    font-size: 14px;
+    color: #fff;
+    text-align: left;
+    height: 40px; }
+  .video-section-right-icon {
+    width: 25px; }
+  .video-section-left-icon {
+    float: right;
+    width: 25px;
+    margin-right: 240px; }
+  .video-section-text {
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    color: rgba(255, 255, 255, 0.6);
+    padding-bottom: 20px;
+    padding-right: 25px;
+    text-align: left; }
+  .right-text {
+    width: 130px;
+    padding: 0; }
+  .left-text {
+    margin-left: -230px;
+    width: 130px;
+    text-align: left;
+    padding: 0; }
+  .smartphone {
+    position: relative;
+    top: 380px; }
+    .smartphone img {
+      width: 300px; }
+    .smartphone::after {
+      right: 53px;
+      bottom: 97px;
+      width: 205px;
+      height: 363px; }
+    .smartphone::before {
+      bottom: 265px;
+      right: 125px; }
+  .video-section-container {
+    height: 370px;
+    background-image: linear-gradient(to top, #eb402c, #d90647);
+    margin-top: 150px; }
+  .email-section {
+    height: 400px;
+    padding: 0;
+    margin: 0;
+    margin-top: 500px; }
+    .email-section .section-text {
+      width: 260px;
+      margin-top: -50px; }
+    .email-section .email-container {
+      width: 280px;
+      margin-top: -50px;
+      padding-left: 10px; }
+      .email-section .email-container .enter-email {
+        font-family: 'Lato', sans-serif;
+        font-weight: 400;
+        font-size: 16px;
+        color: #808080;
+        padding-left: 10px; }
+      .email-section .email-container .subscribe-email {
+        padding: 0 20px;
+        margin-left: -200px; }
+  .appstore-section {
+    padding: 0; }
+    .appstore-section .section-text {
+      width: 280px;
+      padding: 0; }
+  .page-footer {
+    height: 120px;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center; }
+    .page-footer .footer-nav {
+      width: 300px; }
+      .page-footer .footer-nav ul li {
+        padding: 5px; }
+      .page-footer .footer-nav a {
+        font-family: 'Lato', sans-serif;
+        font-weight: 400;
+        font-size: 12px;
+        color: #363636; }
+  .logo {
+    margin-left: -180px; }
+  .header-nav {
+    display: none; }
+  .menu {
+    visibility: visible;
+    background: url("../img/menu.png");
+    width: 40px;
+    height: 40px;
+    border: none;
+    cursor: pointer; } }
