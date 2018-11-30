@@ -1,0 +1,18 @@
+@mixin font ($font-weight,$font-size,$color){
+  font-family: 'Lato', sans-serif;
+  font-weight: $font-weight;
+  font-size: $font-size;
+  color: $color;
+}
+@mixin flexbox {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+@mixin column {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
