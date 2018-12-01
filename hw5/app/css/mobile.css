@@ -5,6 +5,17 @@
     margin: 0 auto; }
   .page-header {
     height: 90px; }
+  .header-nav {
+    margin-left: 20px; }
+    .header-nav .mobile-menu {
+      display: block;
+      cursor: pointer; }
+    .header-nav ul {
+      display: block; }
+      .header-nav ul li {
+        display: none; }
+    .header-nav:hover li {
+      display: block; }
   .welcome-section {
     height: 310px;
     padding: 0; }
@@ -244,13 +255,4 @@
         font-size: 12px;
         color: #363636; }
   .logo {
-    margin-left: -180px; }
-  .header-nav {
-    display: none; }
-  .menu {
-    visibility: visible;
-    background: url("../img/menu.png");
-    width: 40px;
-    height: 40px;
-    border: none;
-    cursor: pointer; } }
+    margin-left: -170px; } }

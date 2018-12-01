@@ -8,6 +8,24 @@
   }
   .page-header {
     height: 90px;
+    }
+  .header-nav {
+    margin-left: 20px;
+    .mobile-menu {
+      display: block;
+      cursor: pointer;
+    }
+    ul {
+      display: block;
+      li {
+        display: none;
+      }
+    }
+    &:hover {
+      li{
+        display: block;
+      }
+    }
   }
   .welcome-section {
     height: 310px;
@@ -259,17 +277,6 @@
     }
   }
   .logo {
-    margin-left: -180px;
-  }
-  .header-nav {
-    display: none;
-  }
-  .menu {
-    visibility: visible;
-    background: url("../img/menu.png");
-    width: 40px;
-    height: 40px;
-    border: none;
-    cursor: pointer;
+    margin-left: -170px;
   }
 }

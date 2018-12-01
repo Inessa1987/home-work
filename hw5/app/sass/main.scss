@@ -32,14 +32,14 @@
       @include flexbox;
       height: 16px;
     }
-    a{
+    a, .mobile-menu {
       @include font (400, 18px, #fff);
       text-transform: uppercase;
       &:hover {
         text-decoration: line-through;
       }
     }
-    .menu {
+    .mobile-menu {
       display: none;
     }
   }

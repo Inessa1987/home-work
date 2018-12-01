@@ -34,16 +34,16 @@
   align-items: center;
   height: 16px; }
 
-.header-nav a {
+.header-nav a, .header-nav .mobile-menu {
   font-family: 'Lato', sans-serif;
   font-weight: 400;
   font-size: 18px;
   color: #fff;
   text-transform: uppercase; }
-  .header-nav a:hover {
+  .header-nav a:hover, .header-nav .mobile-menu:hover {
     text-decoration: line-through; }
 
-.header-nav .menu {
+.header-nav .mobile-menu {
   display: none; }
 
 .footer-nav ul {
