@@ -1,4 +1,4 @@
-.container, .afisha, .content {
+.page-header, .welcome-section, .afisha, .content, .page-footer{
     width: 1929px;
     font-family: 'Roboto', sans-serif;
 }
@@ -192,6 +192,9 @@
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
+    display: flex;
+}
+.items {
     display: flex;
 }
 .item {

@@ -10,10 +10,8 @@
 </head>
 
 <body>
-    <a id="up"></a>
-    <div class="container">
 
-    <header class="page-header">
+    <header id="back-to-top" class="page-header">
         <h1>
             <a href="index.html"><img class="logo" src="images/logo.png" alt="Театр імені Т.Г. Шевченка"></a>
         </h1>
@@ -39,10 +37,10 @@
     <section class="welcome-section">
         <img class="afisha" src="images/afisha.png" alt="Сьогодні відбудеться вистава">
 
-        <ul class="slider">
-            <li class="rewind to-the-left" title="Листати назад">
-                <a href="#left"></a>
-            </li>
+        <div class="slider">
+        <button class="rewind to-the-left" title="Листати назад"><a href="#left"></button>
+
+        <ul class="items">
             <li class="item">
                 <span class="day">Нд</span>
                 <span class="date">21</span>
@@ -74,15 +72,17 @@
                 <span class="date">25</span>
                 <span class="month">лютого</span>
             </li>
+
             <li class="item">
                 <span class="day">Пт</span>
                 <span class="date">26</span>
                 <span class="month">лютого</span>
             </li>
-            <li  class="rewind to-the-right" title="Листати вперед">
-                <a href="#right"></a>
-            </li>
         </ul>
+
+        <button  class="rewind to-the-right" title="Листати вперед"><a href="#right"></a></button>
+
+        </div>
     </section>
 
     <div class="content">
@@ -169,7 +169,7 @@
     </div>
 
     <footer class="page-footer">
-        <a href="#up" title="Піднятися нагору"><div class="up"></div></a>
+        <a href="#back-to-top" title="Піднятися нагору"><div class="up"></div></a>
         <div class="footer-container">
             <nav class="bottom-nav">
                 <ul>
@@ -194,7 +194,7 @@
             </div>
         </div>
     </footer>
-    </div>
+
 </body>
 
 </html>
